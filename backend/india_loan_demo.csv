@@ -1,0 +1,601 @@
+applicant_id,gender,caste,religion,state,monthly_income,credit_score,loan_amount_requested,employment_type,education,existing_loans,loan_approved
+IND1000,Male,General,Muslim,Gujarat,16701,791,500000,Self-Employed,12th Pass,3,0
+IND1001,Female,General,Hindu,Bihar,20173,624,750000,Self-Employed,Post-Graduate,3,0
+IND1002,Female,General,Hindu,Gujarat,39891,737,500000,Gig Worker,Graduate,3,1
+IND1003,Female,General,Hindu,Uttar Pradesh,39298,685,1000000,Self-Employed,10th Pass,2,1
+IND1004,Male,General,Hindu,West Bengal,11651,616,50000,Self-Employed,Post-Graduate,0,1
+IND1005,Male,OBC,Muslim,Rajasthan,40663,727,50000,Salaried,Primary,3,0
+IND1006,Male,General,Hindu,Bihar,23888,612,500000,Gig Worker,12th Pass,2,0
+IND1007,Female,OBC,Hindu,Tamil Nadu,114546,633,50000,Salaried,12th Pass,0,1
+IND1008,Female,OBC,Hindu,Bihar,43236,547,1000000,Gig Worker,Graduate,3,1
+IND1009,Female,OBC,Other,West Bengal,48777,625,50000,Salaried,Graduate,0,1
+IND1010,Male,General,Hindu,Tamil Nadu,49669,686,500000,Self-Employed,Primary,3,0
+IND1011,Female,SC,Hindu,West Bengal,15525,798,200000,Gig Worker,Graduate,2,0
+IND1012,Female,OBC,Hindu,Tamil Nadu,141593,634,200000,Salaried,12th Pass,1,1
+IND1013,Male,General,Muslim,Bihar,11660,576,100000,Salaried,Graduate,1,1
+IND1014,Male,SC,Hindu,Tamil Nadu,63385,792,50000,Salaried,Post-Graduate,0,1
+IND1015,Male,ST,Hindu,Tamil Nadu,55997,622,500000,Self-Employed,Post-Graduate,2,1
+IND1016,Male,General,Hindu,Uttar Pradesh,26006,516,50000,Daily Wage,12th Pass,1,0
+IND1017,Male,General,Hindu,Gujarat,57902,676,750000,Salaried,Primary,3,1
+IND1018,Male,SC,Hindu,Gujarat,29076,637,1000000,Gig Worker,Graduate,1,1
+IND1019,Male,SC,Hindu,Rajasthan,22633,860,50000,Salaried,Graduate,0,1
+IND1020,Female,General,Sikh,Rajasthan,50447,705,50000,Self-Employed,Graduate,0,1
+IND1021,Male,General,Hindu,Uttar Pradesh,17951,652,200000,Daily Wage,12th Pass,2,0
+IND1022,Male,OBC,Hindu,Rajasthan,31039,586,1000000,Salaried,Graduate,0,1
+IND1023,Male,OBC,Christian,West Bengal,23958,693,500000,Self-Employed,10th Pass,1,1
+IND1024,Male,OBC,Hindu,Bihar,28704,788,50000,Salaried,12th Pass,1,1
+IND1025,Female,OBC,Hindu,Maharashtra,49163,691,200000,Salaried,12th Pass,1,1
+IND1026,Male,OBC,Hindu,West Bengal,23955,592,100000,Salaried,Post-Graduate,1,1
+IND1027,Male,SC,Hindu,Maharashtra,31741,710,1000000,Salaried,Primary,2,1
+IND1028,Female,General,Other,Maharashtra,25534,660,200000,Self-Employed,Graduate,3,1
+IND1029,Male,General,Hindu,Uttar Pradesh,99787,703,200000,Self-Employed,Post-Graduate,3,1
+IND1030,Female,SC,Christian,West Bengal,46158,634,200000,Self-Employed,12th Pass,2,1
+IND1031,Male,SC,Hindu,Uttar Pradesh,42363,632,50000,Salaried,12th Pass,0,1
+IND1032,Male,OBC,Hindu,Tamil Nadu,58594,629,50000,Salaried,Graduate,3,1
+IND1033,Female,OBC,Hindu,Maharashtra,23959,745,100000,Self-Employed,Graduate,0,1
+IND1034,Female,General,Hindu,Bihar,66269,633,750000,Unemployed,10th Pass,3,0
+IND1035,Female,OBC,Hindu,Rajasthan,46273,625,750000,Salaried,Graduate,0,0
+IND1036,Male,OBC,Muslim,Bihar,12177,584,750000,Daily Wage,10th Pass,2,1
+IND1037,Male,General,Hindu,Rajasthan,13364,703,1000000,Self-Employed,12th Pass,1,1
+IND1038,Female,General,Sikh,Maharashtra,24328,691,1000000,Self-Employed,Graduate,0,1
+IND1039,Male,OBC,Hindu,Maharashtra,14404,626,100000,Self-Employed,Graduate,1,1
+IND1040,Male,General,Muslim,Maharashtra,30736,604,1000000,Salaried,Graduate,0,1
+IND1041,Male,OBC,Muslim,Uttar Pradesh,17861,824,750000,Salaried,12th Pass,0,1
+IND1042,Male,General,Muslim,West Bengal,33914,505,750000,Self-Employed,12th Pass,0,1
+IND1043,Female,OBC,Muslim,Rajasthan,97557,706,200000,Salaried,Graduate,0,0
+IND1044,Male,General,Muslim,West Bengal,35081,774,1000000,Daily Wage,12th Pass,0,0
+IND1045,Female,SC,Hindu,Uttar Pradesh,29375,377,50000,Self-Employed,Primary,1,0
+IND1046,Male,OBC,Hindu,Uttar Pradesh,47656,732,50000,Salaried,Graduate,0,1
+IND1047,Male,OBC,Hindu,Gujarat,22303,646,200000,Gig Worker,10th Pass,1,1
+IND1048,Male,SC,Christian,Bihar,65538,686,200000,Salaried,Graduate,2,1
+IND1049,Male,OBC,Hindu,Bihar,51361,637,200000,Self-Employed,Post-Graduate,3,0
+IND1050,Female,General,Muslim,Tamil Nadu,37317,756,50000,Gig Worker,Graduate,0,0
+IND1051,Female,OBC,Hindu,Uttar Pradesh,40458,695,750000,Daily Wage,Graduate,3,0
+IND1052,Female,OBC,Hindu,Rajasthan,151633,676,200000,Gig Worker,Graduate,1,1
+IND1053,Female,SC,Hindu,Gujarat,70236,588,100000,Self-Employed,Post-Graduate,2,0
+IND1054,Female,OBC,Hindu,Gujarat,169340,824,200000,Self-Employed,10th Pass,2,1
+IND1055,Female,General,Hindu,West Bengal,52702,665,500000,Daily Wage,10th Pass,2,1
+IND1056,Male,General,Hindu,Bihar,12962,859,200000,Salaried,12th Pass,3,1
+IND1057,Male,OBC,Hindu,Uttar Pradesh,30226,828,50000,Salaried,Post-Graduate,1,1
+IND1058,Male,OBC,Hindu,Tamil Nadu,11046,513,1000000,Salaried,Post-Graduate,0,1
+IND1059,Male,OBC,Hindu,Uttar Pradesh,52565,609,200000,Salaried,Post-Graduate,0,1
+IND1060,Male,OBC,Hindu,West Bengal,61192,576,1000000,Self-Employed,12th Pass,1,1
+IND1061,Male,ST,Muslim,Maharashtra,19532,660,500000,Self-Employed,10th Pass,3,1
+IND1062,Female,OBC,Hindu,Uttar Pradesh,22949,680,100000,Self-Employed,Graduate,0,1
+IND1063,Male,General,Hindu,West Bengal,40300,684,1000000,Salaried,Post-Graduate,1,1
+IND1064,Male,General,Hindu,Maharashtra,15698,754,750000,Gig Worker,12th Pass,0,1
+IND1065,Male,General,Hindu,Maharashtra,14895,791,200000,Salaried,Graduate,2,1
+IND1066,Male,General,Hindu,Tamil Nadu,86425,747,500000,Self-Employed,Graduate,0,1
+IND1067,Female,General,Hindu,Rajasthan,39351,617,500000,Self-Employed,12th Pass,3,1
+IND1068,Male,General,Hindu,Bihar,24571,598,1000000,Salaried,12th Pass,1,1
+IND1069,Female,General,Hindu,Uttar Pradesh,11109,665,100000,Salaried,Post-Graduate,3,0
+IND1070,Female,General,Hindu,Maharashtra,65949,701,50000,Salaried,Post-Graduate,1,1
+IND1071,Male,SC,Muslim,Uttar Pradesh,22490,649,200000,Daily Wage,Primary,2,1
+IND1072,Male,General,Muslim,Rajasthan,133583,550,500000,Daily Wage,Graduate,1,1
+IND1073,Female,OBC,Hindu,Bihar,66271,722,100000,Self-Employed,Post-Graduate,0,1
+IND1074,Female,OBC,Hindu,Rajasthan,20625,631,750000,Salaried,Graduate,0,1
+IND1075,Female,ST,Hindu,Bihar,22008,629,500000,Self-Employed,Post-Graduate,2,0
+IND1076,Female,General,Hindu,Gujarat,121211,660,100000,Gig Worker,Graduate,1,1
+IND1077,Male,OBC,Other,Bihar,34235,644,50000,Gig Worker,10th Pass,2,1
+IND1078,Male,ST,Hindu,Tamil Nadu,25353,633,50000,Salaried,Graduate,0,1
+IND1079,Male,SC,Hindu,Rajasthan,37027,556,500000,Salaried,Graduate,3,1
+IND1080,Female,SC,Hindu,Maharashtra,25272,655,500000,Gig Worker,12th Pass,2,1
+IND1081,Female,General,Hindu,Gujarat,42990,724,1000000,Salaried,12th Pass,3,1
+IND1082,Male,General,Hindu,Tamil Nadu,34438,687,200000,Salaried,10th Pass,3,1
+IND1083,Male,OBC,Hindu,Uttar Pradesh,67027,745,100000,Salaried,10th Pass,1,1
+IND1084,Male,ST,Hindu,Rajasthan,27667,603,500000,Self-Employed,Post-Graduate,2,0
+IND1085,Male,OBC,Hindu,West Bengal,19548,556,200000,Daily Wage,12th Pass,3,0
+IND1086,Female,OBC,Hindu,West Bengal,28444,644,1000000,Unemployed,Graduate,3,0
+IND1087,Female,General,Hindu,Maharashtra,28323,612,200000,Self-Employed,Primary,1,0
+IND1088,Female,SC,Hindu,Bihar,34397,621,500000,Self-Employed,Graduate,1,1
+IND1089,Male,General,Hindu,Maharashtra,56623,682,50000,Salaried,Primary,0,1
+IND1090,Male,OBC,Hindu,West Bengal,54498,622,100000,Self-Employed,12th Pass,3,0
+IND1091,Female,OBC,Hindu,Uttar Pradesh,84099,558,100000,Salaried,Graduate,0,1
+IND1092,Female,OBC,Hindu,Gujarat,20577,617,50000,Self-Employed,12th Pass,3,0
+IND1093,Female,General,Hindu,Gujarat,47672,693,500000,Salaried,Primary,0,1
+IND1094,Female,General,Muslim,Rajasthan,60422,722,100000,Salaried,10th Pass,1,0
+IND1095,Male,OBC,Hindu,Gujarat,22652,721,500000,Salaried,Post-Graduate,2,1
+IND1096,Male,General,Hindu,Rajasthan,31402,701,1000000,Salaried,12th Pass,1,1
+IND1097,Male,OBC,Hindu,Rajasthan,10668,650,500000,Salaried,Graduate,0,1
+IND1098,Male,General,Hindu,Rajasthan,68514,699,200000,Salaried,Post-Graduate,0,1
+IND1099,Male,OBC,Hindu,West Bengal,31230,661,50000,Unemployed,Graduate,2,1
+IND1100,Male,OBC,Hindu,West Bengal,63869,674,500000,Self-Employed,Graduate,3,1
+IND1101,Female,General,Christian,Bihar,41950,585,1000000,Self-Employed,10th Pass,0,1
+IND1102,Male,OBC,Hindu,Tamil Nadu,31900,668,750000,Daily Wage,Graduate,0,0
+IND1103,Male,General,Hindu,Rajasthan,11908,697,50000,Unemployed,10th Pass,0,1
+IND1104,Female,General,Hindu,Rajasthan,13487,693,100000,Self-Employed,Post-Graduate,2,1
+IND1105,Male,ST,Muslim,Tamil Nadu,5912,555,200000,Gig Worker,Graduate,1,1
+IND1106,Male,OBC,Hindu,Maharashtra,24493,673,100000,Salaried,Graduate,0,1
+IND1107,Female,SC,Muslim,Rajasthan,178934,542,1000000,Salaried,Graduate,2,1
+IND1108,Male,General,Hindu,Bihar,14741,679,1000000,Self-Employed,Post-Graduate,0,1
+IND1109,Male,OBC,Muslim,Gujarat,5755,605,100000,Self-Employed,Graduate,3,1
+IND1110,Male,SC,Hindu,Gujarat,71244,809,50000,Gig Worker,12th Pass,2,0
+IND1111,Male,OBC,Christian,Uttar Pradesh,189966,675,100000,Salaried,Graduate,0,1
+IND1112,Female,OBC,Hindu,Uttar Pradesh,44736,733,500000,Salaried,Graduate,2,1
+IND1113,Female,OBC,Muslim,Gujarat,44449,844,100000,Self-Employed,Graduate,0,0
+IND1114,Female,OBC,Hindu,Gujarat,29233,595,200000,Salaried,10th Pass,1,1
+IND1115,Female,ST,Hindu,West Bengal,10342,702,200000,Self-Employed,10th Pass,0,0
+IND1116,Female,SC,Hindu,Bihar,13154,564,750000,Gig Worker,Graduate,2,1
+IND1117,Male,ST,Hindu,Tamil Nadu,29093,694,200000,Gig Worker,Graduate,3,0
+IND1118,Female,General,Hindu,Uttar Pradesh,25440,815,100000,Gig Worker,Post-Graduate,3,1
+IND1119,Male,SC,Hindu,West Bengal,33502,611,200000,Daily Wage,Primary,3,1
+IND1120,Female,ST,Hindu,West Bengal,64895,589,50000,Self-Employed,Post-Graduate,0,0
+IND1121,Female,General,Hindu,Tamil Nadu,24166,657,200000,Gig Worker,Graduate,1,1
+IND1122,Male,General,Muslim,West Bengal,65828,838,500000,Self-Employed,Graduate,0,1
+IND1123,Male,SC,Hindu,Bihar,24277,730,50000,Salaried,Graduate,3,1
+IND1124,Male,OBC,Sikh,Gujarat,75114,588,750000,Salaried,Post-Graduate,2,1
+IND1125,Male,SC,Hindu,Rajasthan,38578,788,500000,Salaried,10th Pass,3,1
+IND1126,Female,General,Hindu,Tamil Nadu,26766,524,100000,Self-Employed,Post-Graduate,2,0
+IND1127,Female,SC,Muslim,Gujarat,38120,846,100000,Self-Employed,12th Pass,1,1
+IND1128,Male,General,Hindu,Gujarat,29570,737,100000,Daily Wage,Post-Graduate,2,1
+IND1129,Male,General,Hindu,Maharashtra,39308,814,500000,Salaried,Post-Graduate,0,1
+IND1130,Male,General,Hindu,Tamil Nadu,61739,524,500000,Salaried,10th Pass,0,1
+IND1131,Male,SC,Hindu,West Bengal,34164,679,500000,Unemployed,Graduate,0,1
+IND1132,Male,OBC,Hindu,Rajasthan,28037,653,50000,Salaried,10th Pass,2,0
+IND1133,Male,OBC,Other,Tamil Nadu,16540,579,1000000,Self-Employed,12th Pass,0,1
+IND1134,Female,OBC,Sikh,West Bengal,54471,554,50000,Self-Employed,Post-Graduate,0,0
+IND1135,Male,SC,Hindu,Gujarat,46341,708,100000,Self-Employed,Primary,0,1
+IND1136,Male,OBC,Hindu,Rajasthan,15877,715,1000000,Salaried,Graduate,1,1
+IND1137,Female,SC,Hindu,West Bengal,65175,775,200000,Salaried,10th Pass,2,0
+IND1138,Male,OBC,Hindu,Bihar,15697,622,100000,Salaried,Post-Graduate,2,1
+IND1139,Female,OBC,Hindu,West Bengal,74641,652,750000,Self-Employed,10th Pass,3,0
+IND1140,Female,OBC,Hindu,Maharashtra,58776,547,50000,Self-Employed,Post-Graduate,2,1
+IND1141,Male,OBC,Hindu,Gujarat,48716,795,500000,Salaried,12th Pass,1,1
+IND1142,Male,SC,Muslim,West Bengal,27892,670,50000,Self-Employed,12th Pass,2,0
+IND1143,Male,OBC,Hindu,Uttar Pradesh,54341,726,500000,Gig Worker,10th Pass,1,1
+IND1144,Male,General,Hindu,Uttar Pradesh,77146,729,1000000,Salaried,10th Pass,1,1
+IND1145,Male,SC,Hindu,Maharashtra,54975,789,750000,Self-Employed,10th Pass,2,1
+IND1146,Female,OBC,Hindu,Bihar,22716,594,1000000,Gig Worker,10th Pass,3,1
+IND1147,Male,OBC,Hindu,Gujarat,43791,724,750000,Salaried,Graduate,0,1
+IND1148,Male,ST,Other,Tamil Nadu,80211,662,50000,Salaried,Graduate,0,1
+IND1149,Male,OBC,Hindu,Maharashtra,169290,843,500000,Self-Employed,Graduate,2,1
+IND1150,Female,General,Muslim,Bihar,31456,594,1000000,Daily Wage,Graduate,2,0
+IND1151,Male,ST,Hindu,Tamil Nadu,66205,764,750000,Gig Worker,Graduate,1,1
+IND1152,Male,OBC,Hindu,Uttar Pradesh,80349,694,100000,Self-Employed,12th Pass,2,1
+IND1153,Male,OBC,Hindu,Uttar Pradesh,20564,690,100000,Gig Worker,Post-Graduate,1,1
+IND1154,Female,General,Hindu,Tamil Nadu,126431,669,1000000,Salaried,12th Pass,3,1
+IND1155,Male,SC,Muslim,Maharashtra,17229,779,500000,Self-Employed,Post-Graduate,2,1
+IND1156,Female,OBC,Christian,Uttar Pradesh,63977,687,1000000,Self-Employed,Graduate,0,1
+IND1157,Female,OBC,Hindu,Gujarat,44968,535,50000,Salaried,12th Pass,0,0
+IND1158,Male,SC,Hindu,Rajasthan,37756,768,750000,Gig Worker,10th Pass,2,0
+IND1159,Female,SC,Hindu,West Bengal,215945,753,50000,Self-Employed,12th Pass,1,1
+IND1160,Male,General,Christian,Tamil Nadu,29410,714,100000,Salaried,12th Pass,0,1
+IND1161,Female,OBC,Hindu,Tamil Nadu,29081,569,750000,Daily Wage,Post-Graduate,1,0
+IND1162,Female,General,Hindu,Uttar Pradesh,92229,582,1000000,Salaried,12th Pass,2,1
+IND1163,Male,SC,Hindu,Maharashtra,61899,505,50000,Salaried,Post-Graduate,2,0
+IND1164,Male,General,Hindu,Gujarat,89095,704,200000,Salaried,Graduate,0,1
+IND1165,Female,OBC,Hindu,Maharashtra,39411,550,500000,Gig Worker,Graduate,2,1
+IND1166,Male,SC,Hindu,Bihar,45336,518,500000,Gig Worker,Post-Graduate,3,1
+IND1167,Male,SC,Christian,Bihar,137400,773,200000,Salaried,Graduate,3,1
+IND1168,Male,OBC,Hindu,Rajasthan,20228,730,100000,Self-Employed,Primary,0,0
+IND1169,Female,SC,Hindu,Uttar Pradesh,33792,636,750000,Salaried,Primary,3,0
+IND1170,Female,General,Sikh,Uttar Pradesh,63498,653,500000,Gig Worker,Graduate,1,0
+IND1171,Male,SC,Hindu,Uttar Pradesh,31662,460,200000,Self-Employed,Post-Graduate,0,0
+IND1172,Male,General,Muslim,Rajasthan,24364,742,1000000,Self-Employed,Post-Graduate,0,1
+IND1173,Male,OBC,Hindu,Bihar,55990,606,200000,Daily Wage,Graduate,1,1
+IND1174,Female,SC,Hindu,Maharashtra,92509,693,100000,Salaried,Primary,3,0
+IND1175,Male,General,Muslim,Rajasthan,32906,453,100000,Salaried,Post-Graduate,3,0
+IND1176,Female,General,Hindu,Rajasthan,32273,748,50000,Self-Employed,12th Pass,3,0
+IND1177,Male,SC,Hindu,Maharashtra,23077,601,500000,Unemployed,Post-Graduate,0,0
+IND1178,Female,SC,Hindu,Uttar Pradesh,29519,548,50000,Salaried,Primary,0,1
+IND1179,Male,OBC,Hindu,Gujarat,77538,636,200000,Salaried,Graduate,3,1
+IND1180,Male,OBC,Hindu,Maharashtra,38435,614,750000,Salaried,12th Pass,2,1
+IND1181,Male,OBC,Hindu,Bihar,20671,756,750000,Self-Employed,Graduate,3,1
+IND1182,Female,General,Sikh,Tamil Nadu,43636,629,100000,Salaried,12th Pass,1,0
+IND1183,Female,OBC,Hindu,Tamil Nadu,75798,780,750000,Self-Employed,Graduate,0,1
+IND1184,Male,General,Hindu,West Bengal,24506,693,750000,Unemployed,Post-Graduate,1,1
+IND1185,Female,ST,Hindu,West Bengal,14328,741,750000,Self-Employed,10th Pass,1,0
+IND1186,Female,OBC,Muslim,Rajasthan,168312,664,200000,Salaried,10th Pass,0,1
+IND1187,Female,OBC,Hindu,Tamil Nadu,13836,773,750000,Self-Employed,10th Pass,2,1
+IND1188,Male,OBC,Sikh,Gujarat,28245,566,1000000,Salaried,12th Pass,3,0
+IND1189,Male,ST,Hindu,Uttar Pradesh,42722,674,750000,Daily Wage,10th Pass,1,0
+IND1190,Male,General,Hindu,Bihar,30010,631,750000,Self-Employed,Post-Graduate,0,0
+IND1191,Female,OBC,Hindu,West Bengal,34460,783,50000,Salaried,Graduate,1,1
+IND1192,Female,OBC,Hindu,Gujarat,54381,792,200000,Self-Employed,Graduate,3,0
+IND1193,Female,OBC,Hindu,Bihar,6807,665,100000,Self-Employed,12th Pass,2,0
+IND1194,Male,General,Hindu,Bihar,14960,555,50000,Self-Employed,Graduate,2,1
+IND1195,Male,SC,Muslim,Uttar Pradesh,37458,701,500000,Salaried,Post-Graduate,2,1
+IND1196,Female,ST,Hindu,Rajasthan,27365,523,200000,Gig Worker,12th Pass,0,0
+IND1197,Female,OBC,Hindu,Tamil Nadu,39758,803,1000000,Daily Wage,10th Pass,0,0
+IND1198,Female,OBC,Hindu,Uttar Pradesh,42589,624,200000,Self-Employed,Graduate,2,0
+IND1199,Female,ST,Hindu,Gujarat,8257,662,500000,Unemployed,Post-Graduate,3,0
+IND1200,Female,SC,Hindu,Rajasthan,88569,607,500000,Salaried,Graduate,3,1
+IND1201,Male,General,Hindu,Gujarat,25622,588,500000,Self-Employed,Graduate,0,1
+IND1202,Male,OBC,Hindu,Rajasthan,19813,727,100000,Self-Employed,Graduate,2,1
+IND1203,Female,OBC,Hindu,West Bengal,42017,651,750000,Self-Employed,12th Pass,3,1
+IND1204,Female,OBC,Hindu,Gujarat,39144,668,200000,Self-Employed,12th Pass,3,0
+IND1205,Male,SC,Hindu,Uttar Pradesh,83925,579,750000,Salaried,12th Pass,3,1
+IND1206,Male,ST,Muslim,Rajasthan,43928,737,750000,Salaried,Graduate,0,0
+IND1207,Female,ST,Muslim,Rajasthan,81689,746,1000000,Salaried,10th Pass,2,1
+IND1208,Male,OBC,Hindu,Bihar,18831,647,500000,Salaried,Graduate,1,1
+IND1209,Male,General,Muslim,Bihar,40106,772,100000,Gig Worker,Graduate,2,1
+IND1210,Male,ST,Hindu,Maharashtra,16641,656,1000000,Salaried,10th Pass,2,1
+IND1211,Female,SC,Hindu,Gujarat,38885,731,50000,Salaried,Graduate,0,1
+IND1212,Female,General,Hindu,Bihar,33523,527,100000,Self-Employed,Post-Graduate,3,1
+IND1213,Male,ST,Hindu,Maharashtra,32529,695,750000,Self-Employed,10th Pass,3,0
+IND1214,Female,SC,Hindu,West Bengal,32729,641,100000,Daily Wage,Graduate,0,1
+IND1215,Male,OBC,Christian,West Bengal,60807,678,500000,Self-Employed,12th Pass,0,0
+IND1216,Male,OBC,Hindu,Bihar,11788,674,50000,Salaried,Post-Graduate,0,0
+IND1217,Female,OBC,Hindu,Gujarat,19344,675,500000,Gig Worker,12th Pass,0,1
+IND1218,Female,General,Hindu,Rajasthan,35298,717,50000,Self-Employed,Graduate,0,1
+IND1219,Female,OBC,Christian,Tamil Nadu,15913,616,1000000,Salaried,Post-Graduate,1,0
+IND1220,Female,SC,Hindu,Gujarat,37506,713,750000,Self-Employed,12th Pass,2,0
+IND1221,Female,General,Hindu,Uttar Pradesh,35045,769,50000,Daily Wage,Graduate,2,0
+IND1222,Male,OBC,Hindu,West Bengal,13593,545,50000,Salaried,Graduate,2,1
+IND1223,Male,OBC,Hindu,Bihar,13131,598,50000,Salaried,Post-Graduate,3,0
+IND1224,Male,OBC,Other,Bihar,5786,602,100000,Salaried,Post-Graduate,1,1
+IND1225,Male,ST,Sikh,Rajasthan,15452,572,1000000,Salaried,Graduate,2,0
+IND1226,Female,OBC,Hindu,Uttar Pradesh,36681,624,100000,Self-Employed,Post-Graduate,3,0
+IND1227,Male,OBC,Sikh,Rajasthan,40511,752,750000,Self-Employed,10th Pass,1,1
+IND1228,Female,SC,Hindu,Uttar Pradesh,41828,788,50000,Salaried,Post-Graduate,1,1
+IND1229,Female,OBC,Muslim,Tamil Nadu,21066,674,1000000,Daily Wage,Graduate,3,1
+IND1230,Female,General,Hindu,West Bengal,35853,637,1000000,Gig Worker,Post-Graduate,1,1
+IND1231,Male,OBC,Hindu,Bihar,47957,733,200000,Self-Employed,Graduate,3,1
+IND1232,Female,General,Hindu,Bihar,14948,464,750000,Gig Worker,10th Pass,2,1
+IND1233,Male,General,Hindu,Tamil Nadu,39589,575,1000000,Salaried,Post-Graduate,3,1
+IND1234,Male,OBC,Hindu,Maharashtra,57499,467,50000,Self-Employed,Primary,1,1
+IND1235,Female,OBC,Hindu,West Bengal,25756,574,50000,Self-Employed,Graduate,2,0
+IND1236,Male,ST,Hindu,Rajasthan,76386,599,1000000,Gig Worker,12th Pass,2,0
+IND1237,Male,OBC,Hindu,Tamil Nadu,26181,790,100000,Gig Worker,12th Pass,0,1
+IND1238,Female,OBC,Hindu,Rajasthan,19889,430,750000,Salaried,10th Pass,0,1
+IND1239,Male,OBC,Hindu,Gujarat,53625,629,50000,Daily Wage,12th Pass,1,0
+IND1240,Female,General,Sikh,Bihar,150739,717,1000000,Salaried,12th Pass,3,0
+IND1241,Female,OBC,Hindu,Rajasthan,38551,699,50000,Daily Wage,Graduate,3,1
+IND1242,Female,General,Hindu,Uttar Pradesh,56638,789,1000000,Unemployed,Post-Graduate,1,1
+IND1243,Male,ST,Hindu,Rajasthan,25435,678,750000,Salaried,10th Pass,2,1
+IND1244,Male,General,Muslim,Gujarat,15227,696,1000000,Gig Worker,Graduate,1,1
+IND1245,Female,OBC,Hindu,West Bengal,40797,508,200000,Salaried,Graduate,1,1
+IND1246,Male,General,Hindu,Bihar,45573,580,1000000,Self-Employed,12th Pass,2,0
+IND1247,Female,ST,Muslim,Tamil Nadu,28267,513,1000000,Self-Employed,Graduate,3,0
+IND1248,Female,OBC,Christian,Gujarat,56485,713,750000,Self-Employed,Primary,1,0
+IND1249,Female,OBC,Hindu,Bihar,22974,694,1000000,Daily Wage,12th Pass,3,1
+IND1250,Male,General,Hindu,Rajasthan,19313,691,750000,Self-Employed,12th Pass,1,1
+IND1251,Male,SC,Hindu,West Bengal,76301,590,200000,Self-Employed,10th Pass,2,0
+IND1252,Female,General,Muslim,Maharashtra,76553,582,750000,Gig Worker,Post-Graduate,2,1
+IND1253,Male,SC,Hindu,West Bengal,23294,682,50000,Unemployed,Graduate,0,1
+IND1254,Male,General,Hindu,Maharashtra,120957,608,750000,Salaried,Graduate,2,1
+IND1255,Female,General,Christian,Uttar Pradesh,29703,578,200000,Unemployed,Graduate,0,1
+IND1256,Female,General,Hindu,West Bengal,38535,621,500000,Salaried,12th Pass,1,1
+IND1257,Female,OBC,Hindu,Bihar,34226,608,1000000,Gig Worker,10th Pass,3,0
+IND1258,Female,OBC,Hindu,Maharashtra,52398,591,750000,Salaried,Graduate,2,0
+IND1259,Male,General,Hindu,Tamil Nadu,43914,560,1000000,Salaried,Graduate,2,1
+IND1260,Female,SC,Hindu,Bihar,43502,703,100000,Self-Employed,Primary,2,0
+IND1261,Female,OBC,Hindu,Tamil Nadu,17788,797,50000,Self-Employed,Graduate,1,1
+IND1262,Male,OBC,Hindu,West Bengal,11136,661,50000,Salaried,Graduate,0,1
+IND1263,Male,OBC,Hindu,Tamil Nadu,80782,683,100000,Salaried,Graduate,1,1
+IND1264,Female,OBC,Other,Maharashtra,24789,710,100000,Self-Employed,10th Pass,3,0
+IND1265,Female,OBC,Hindu,Bihar,35090,696,750000,Daily Wage,12th Pass,1,1
+IND1266,Female,General,Sikh,Rajasthan,45650,593,100000,Salaried,12th Pass,3,1
+IND1267,Female,General,Hindu,Gujarat,113584,811,500000,Salaried,10th Pass,2,1
+IND1268,Male,SC,Muslim,Maharashtra,40657,600,1000000,Self-Employed,Graduate,3,1
+IND1269,Male,ST,Muslim,Maharashtra,27546,720,1000000,Salaried,Graduate,3,1
+IND1270,Female,OBC,Hindu,Rajasthan,25172,710,200000,Gig Worker,10th Pass,0,1
+IND1271,Female,General,Hindu,Bihar,35378,498,100000,Gig Worker,Graduate,3,1
+IND1272,Female,OBC,Muslim,Bihar,19214,634,100000,Self-Employed,10th Pass,3,0
+IND1273,Female,OBC,Hindu,West Bengal,37057,669,500000,Salaried,Primary,1,1
+IND1274,Male,General,Hindu,Tamil Nadu,35016,676,50000,Gig Worker,12th Pass,2,1
+IND1275,Male,General,Hindu,West Bengal,114584,690,50000,Self-Employed,12th Pass,1,1
+IND1276,Female,SC,Muslim,Rajasthan,34251,729,1000000,Gig Worker,10th Pass,1,0
+IND1277,Female,OBC,Muslim,West Bengal,9441,664,1000000,Self-Employed,10th Pass,2,0
+IND1278,Female,General,Muslim,Rajasthan,235969,695,750000,Gig Worker,Graduate,2,1
+IND1279,Female,General,Hindu,Bihar,70953,661,500000,Self-Employed,Post-Graduate,3,0
+IND1280,Female,General,Muslim,Tamil Nadu,156005,578,200000,Self-Employed,Graduate,3,0
+IND1281,Male,OBC,Hindu,West Bengal,16153,667,200000,Unemployed,12th Pass,0,0
+IND1282,Male,General,Hindu,Maharashtra,31092,728,500000,Self-Employed,Graduate,1,1
+IND1283,Male,General,Hindu,Uttar Pradesh,58225,759,200000,Self-Employed,12th Pass,2,1
+IND1284,Female,SC,Hindu,Gujarat,52863,710,50000,Salaried,Graduate,3,1
+IND1285,Male,General,Hindu,Maharashtra,45019,778,200000,Self-Employed,12th Pass,2,1
+IND1286,Male,OBC,Hindu,Bihar,7787,700,200000,Self-Employed,Graduate,3,1
+IND1287,Male,General,Hindu,Gujarat,10952,738,500000,Salaried,12th Pass,0,1
+IND1288,Male,General,Hindu,Uttar Pradesh,105057,744,500000,Salaried,12th Pass,0,1
+IND1289,Female,General,Hindu,Uttar Pradesh,118982,646,200000,Self-Employed,Graduate,2,1
+IND1290,Male,SC,Hindu,Tamil Nadu,33703,726,100000,Gig Worker,Graduate,0,1
+IND1291,Male,SC,Hindu,Gujarat,96114,585,500000,Self-Employed,12th Pass,2,1
+IND1292,Female,SC,Hindu,Tamil Nadu,17742,694,750000,Salaried,Graduate,3,0
+IND1293,Male,OBC,Hindu,Maharashtra,20824,714,750000,Self-Employed,Graduate,1,1
+IND1294,Male,OBC,Hindu,Rajasthan,16787,754,50000,Salaried,Primary,0,1
+IND1295,Male,General,Hindu,Rajasthan,20031,734,200000,Self-Employed,12th Pass,3,1
+IND1296,Female,General,Hindu,Rajasthan,60227,755,100000,Salaried,Primary,1,1
+IND1297,Male,SC,Hindu,Gujarat,19857,656,50000,Salaried,Graduate,1,1
+IND1298,Female,General,Hindu,Rajasthan,174175,635,200000,Salaried,Graduate,1,1
+IND1299,Male,General,Muslim,Maharashtra,50113,641,500000,Salaried,10th Pass,3,1
+IND1300,Male,General,Hindu,Tamil Nadu,77588,687,750000,Salaried,12th Pass,3,1
+IND1301,Male,General,Hindu,Gujarat,51172,511,1000000,Salaried,12th Pass,2,1
+IND1302,Male,General,Hindu,Tamil Nadu,84964,778,100000,Self-Employed,Graduate,1,1
+IND1303,Female,OBC,Hindu,Gujarat,19779,668,1000000,Self-Employed,Graduate,1,1
+IND1304,Female,OBC,Hindu,Tamil Nadu,99992,629,750000,Salaried,Post-Graduate,1,0
+IND1305,Female,SC,Hindu,Uttar Pradesh,40080,449,1000000,Daily Wage,Graduate,2,0
+IND1306,Male,SC,Hindu,Tamil Nadu,84667,661,500000,Salaried,Post-Graduate,1,1
+IND1307,Male,OBC,Hindu,Rajasthan,13257,648,200000,Self-Employed,Post-Graduate,3,1
+IND1308,Female,General,Hindu,Uttar Pradesh,41208,588,500000,Salaried,Primary,1,1
+IND1309,Male,OBC,Muslim,Tamil Nadu,40201,607,1000000,Salaried,Graduate,0,1
+IND1310,Male,OBC,Muslim,Gujarat,23541,662,500000,Self-Employed,12th Pass,3,1
+IND1311,Male,General,Hindu,Gujarat,45214,614,750000,Self-Employed,10th Pass,2,0
+IND1312,Male,OBC,Sikh,Gujarat,106694,713,100000,Daily Wage,12th Pass,1,1
+IND1313,Female,OBC,Hindu,Bihar,22307,601,500000,Self-Employed,Post-Graduate,0,1
+IND1314,Female,OBC,Hindu,Maharashtra,71203,678,750000,Unemployed,12th Pass,2,0
+IND1315,Female,OBC,Hindu,Gujarat,16494,765,100000,Salaried,12th Pass,2,0
+IND1316,Male,General,Hindu,Uttar Pradesh,158992,661,200000,Salaried,12th Pass,3,1
+IND1317,Male,ST,Christian,Gujarat,62894,695,1000000,Salaried,12th Pass,2,1
+IND1318,Male,SC,Hindu,Bihar,121489,689,200000,Salaried,Primary,2,1
+IND1319,Male,General,Christian,Rajasthan,58130,665,50000,Self-Employed,12th Pass,2,1
+IND1320,Male,SC,Hindu,Uttar Pradesh,47735,659,750000,Self-Employed,Graduate,2,1
+IND1321,Female,OBC,Christian,Bihar,63262,616,100000,Salaried,12th Pass,1,1
+IND1322,Female,SC,Hindu,Rajasthan,33007,677,500000,Daily Wage,Post-Graduate,1,0
+IND1323,Male,SC,Hindu,West Bengal,11702,640,200000,Daily Wage,10th Pass,1,1
+IND1324,Female,OBC,Hindu,West Bengal,49671,796,100000,Salaried,Post-Graduate,1,0
+IND1325,Female,General,Hindu,Uttar Pradesh,21400,733,750000,Salaried,Graduate,0,1
+IND1326,Female,General,Hindu,Tamil Nadu,16795,541,50000,Salaried,10th Pass,1,0
+IND1327,Female,OBC,Hindu,Maharashtra,56692,546,200000,Salaried,12th Pass,2,1
+IND1328,Male,OBC,Muslim,Maharashtra,29870,653,1000000,Salaried,Graduate,1,1
+IND1329,Male,General,Hindu,Bihar,74562,631,100000,Self-Employed,Graduate,1,1
+IND1330,Male,General,Hindu,Rajasthan,20904,649,1000000,Salaried,10th Pass,3,1
+IND1331,Female,SC,Hindu,Maharashtra,26119,720,100000,Salaried,Graduate,2,1
+IND1332,Male,ST,Hindu,Rajasthan,81243,691,100000,Unemployed,10th Pass,1,1
+IND1333,Male,OBC,Hindu,Rajasthan,44173,690,750000,Gig Worker,Post-Graduate,1,1
+IND1334,Male,General,Hindu,Bihar,12911,787,750000,Daily Wage,12th Pass,1,1
+IND1335,Male,General,Hindu,Bihar,43496,546,750000,Salaried,10th Pass,0,1
+IND1336,Female,General,Hindu,Bihar,102423,673,500000,Salaried,Graduate,1,1
+IND1337,Female,ST,Hindu,Maharashtra,25977,615,100000,Self-Employed,Graduate,3,1
+IND1338,Male,General,Hindu,West Bengal,55195,787,200000,Salaried,Post-Graduate,2,1
+IND1339,Male,OBC,Hindu,Bihar,20038,477,1000000,Salaried,12th Pass,2,0
+IND1340,Male,General,Hindu,Maharashtra,32999,480,750000,Self-Employed,12th Pass,1,1
+IND1341,Male,OBC,Hindu,Bihar,77876,690,750000,Self-Employed,12th Pass,1,1
+IND1342,Male,OBC,Hindu,Gujarat,42338,760,1000000,Self-Employed,Graduate,1,1
+IND1343,Male,SC,Hindu,Rajasthan,89544,730,1000000,Self-Employed,Graduate,2,1
+IND1344,Male,General,Sikh,Bihar,48908,596,100000,Self-Employed,Post-Graduate,2,0
+IND1345,Female,General,Hindu,Uttar Pradesh,171633,793,750000,Salaried,Graduate,0,1
+IND1346,Female,General,Muslim,Rajasthan,12143,560,1000000,Salaried,12th Pass,3,1
+IND1347,Male,ST,Hindu,Rajasthan,31193,776,500000,Salaried,10th Pass,0,1
+IND1348,Male,SC,Hindu,Bihar,16997,571,500000,Salaried,12th Pass,3,1
+IND1349,Female,OBC,Hindu,West Bengal,17829,635,750000,Unemployed,Graduate,0,0
+IND1350,Male,OBC,Sikh,Tamil Nadu,17943,719,1000000,Self-Employed,Primary,2,1
+IND1351,Female,OBC,Hindu,West Bengal,40839,540,100000,Gig Worker,12th Pass,0,0
+IND1352,Female,General,Muslim,Bihar,42548,789,100000,Salaried,10th Pass,3,1
+IND1353,Male,ST,Muslim,Rajasthan,48982,634,100000,Salaried,12th Pass,1,0
+IND1354,Male,OBC,Hindu,Uttar Pradesh,16545,676,50000,Salaried,Graduate,3,1
+IND1355,Female,OBC,Hindu,Rajasthan,28941,763,750000,Salaried,Post-Graduate,1,1
+IND1356,Male,OBC,Hindu,West Bengal,18490,597,100000,Salaried,12th Pass,2,1
+IND1357,Female,General,Hindu,Uttar Pradesh,69920,755,500000,Gig Worker,Post-Graduate,3,0
+IND1358,Female,General,Muslim,Maharashtra,19748,804,1000000,Self-Employed,Graduate,0,1
+IND1359,Female,SC,Christian,Gujarat,31269,609,200000,Self-Employed,12th Pass,3,0
+IND1360,Male,General,Hindu,Rajasthan,53756,781,200000,Self-Employed,12th Pass,1,1
+IND1361,Female,OBC,Hindu,Bihar,23601,515,100000,Daily Wage,12th Pass,2,0
+IND1362,Male,General,Muslim,Maharashtra,59024,698,200000,Salaried,Post-Graduate,0,1
+IND1363,Male,OBC,Hindu,Gujarat,110996,560,200000,Salaried,Graduate,3,1
+IND1364,Female,General,Muslim,Bihar,41473,745,50000,Salaried,12th Pass,1,0
+IND1365,Male,OBC,Hindu,Tamil Nadu,68263,738,500000,Gig Worker,Primary,0,1
+IND1366,Female,SC,Hindu,Bihar,8506,841,500000,Unemployed,12th Pass,2,1
+IND1367,Female,General,Hindu,Uttar Pradesh,26894,785,50000,Salaried,10th Pass,0,1
+IND1368,Male,OBC,Hindu,Uttar Pradesh,41333,650,50000,Daily Wage,12th Pass,2,1
+IND1369,Male,OBC,Hindu,Tamil Nadu,17377,573,200000,Daily Wage,12th Pass,0,1
+IND1370,Male,OBC,Hindu,Maharashtra,41997,713,750000,Salaried,Graduate,3,1
+IND1371,Male,ST,Hindu,Gujarat,76264,659,1000000,Salaried,12th Pass,1,0
+IND1372,Male,SC,Hindu,Bihar,9743,796,1000000,Self-Employed,12th Pass,3,0
+IND1373,Female,General,Muslim,Uttar Pradesh,15798,480,200000,Unemployed,12th Pass,3,0
+IND1374,Male,General,Hindu,Maharashtra,41331,850,1000000,Salaried,Graduate,2,1
+IND1375,Male,General,Hindu,Tamil Nadu,50125,710,50000,Gig Worker,12th Pass,2,1
+IND1376,Female,OBC,Hindu,West Bengal,60879,595,500000,Salaried,Graduate,2,1
+IND1377,Male,General,Hindu,Rajasthan,39246,727,1000000,Gig Worker,12th Pass,3,0
+IND1378,Female,OBC,Hindu,West Bengal,50164,775,200000,Self-Employed,Graduate,0,1
+IND1379,Male,OBC,Hindu,West Bengal,68352,674,750000,Self-Employed,10th Pass,0,1
+IND1380,Male,OBC,Hindu,Uttar Pradesh,27170,514,200000,Daily Wage,Graduate,3,0
+IND1381,Female,SC,Hindu,Tamil Nadu,23718,640,100000,Gig Worker,Post-Graduate,3,0
+IND1382,Female,General,Hindu,Bihar,32274,753,200000,Daily Wage,Graduate,1,1
+IND1383,Female,General,Hindu,West Bengal,41757,707,50000,Salaried,12th Pass,2,1
+IND1384,Female,SC,Other,West Bengal,22907,651,500000,Gig Worker,Graduate,2,1
+IND1385,Female,OBC,Hindu,Gujarat,27566,776,500000,Salaried,Graduate,3,1
+IND1386,Male,OBC,Hindu,Uttar Pradesh,47972,727,1000000,Self-Employed,12th Pass,3,0
+IND1387,Male,OBC,Hindu,Uttar Pradesh,40555,734,50000,Self-Employed,Graduate,0,1
+IND1388,Female,General,Hindu,Bihar,31896,630,100000,Self-Employed,10th Pass,3,1
+IND1389,Female,SC,Hindu,Rajasthan,10734,621,50000,Self-Employed,10th Pass,0,0
+IND1390,Female,SC,Hindu,Maharashtra,36226,520,200000,Unemployed,12th Pass,3,0
+IND1391,Male,OBC,Other,Gujarat,18416,642,50000,Salaried,Graduate,1,1
+IND1392,Male,General,Hindu,Uttar Pradesh,72269,744,50000,Self-Employed,12th Pass,1,1
+IND1393,Female,OBC,Hindu,Gujarat,29257,647,100000,Salaried,Post-Graduate,0,0
+IND1394,Male,OBC,Hindu,Uttar Pradesh,18081,702,200000,Salaried,Graduate,2,1
+IND1395,Female,General,Hindu,Gujarat,34784,759,750000,Salaried,Graduate,1,1
+IND1396,Female,ST,Hindu,Tamil Nadu,88387,696,750000,Daily Wage,10th Pass,0,0
+IND1397,Male,General,Hindu,West Bengal,56476,704,500000,Daily Wage,Post-Graduate,3,0
+IND1398,Female,ST,Hindu,Uttar Pradesh,42359,549,1000000,Daily Wage,12th Pass,3,0
+IND1399,Female,OBC,Christian,Gujarat,14353,637,50000,Unemployed,12th Pass,0,1
+IND1400,Male,General,Hindu,Maharashtra,112997,811,500000,Salaried,Graduate,2,1
+IND1401,Female,OBC,Hindu,Tamil Nadu,23502,673,100000,Salaried,Post-Graduate,0,0
+IND1402,Male,SC,Hindu,Tamil Nadu,69818,826,750000,Self-Employed,Primary,0,1
+IND1403,Female,SC,Hindu,Maharashtra,28918,603,50000,Self-Employed,12th Pass,1,0
+IND1404,Male,SC,Hindu,Gujarat,65267,684,100000,Self-Employed,12th Pass,0,1
+IND1405,Female,OBC,Hindu,Bihar,90654,632,1000000,Salaried,Graduate,0,1
+IND1406,Male,OBC,Hindu,Maharashtra,57164,715,100000,Self-Employed,Graduate,3,1
+IND1407,Male,SC,Muslim,Gujarat,61641,741,50000,Self-Employed,Graduate,1,1
+IND1408,Female,General,Hindu,Maharashtra,33897,716,1000000,Salaried,Post-Graduate,3,1
+IND1409,Male,OBC,Hindu,Maharashtra,26801,753,100000,Self-Employed,Post-Graduate,3,1
+IND1410,Male,General,Muslim,Uttar Pradesh,40006,663,1000000,Self-Employed,10th Pass,2,0
+IND1411,Female,ST,Hindu,Gujarat,28625,648,50000,Self-Employed,Graduate,2,1
+IND1412,Female,ST,Hindu,Bihar,204238,515,50000,Salaried,Graduate,1,1
+IND1413,Female,General,Hindu,West Bengal,18130,719,1000000,Gig Worker,12th Pass,1,1
+IND1414,Female,SC,Hindu,Uttar Pradesh,73237,679,200000,Salaried,12th Pass,2,0
+IND1415,Male,ST,Hindu,Maharashtra,52158,659,500000,Salaried,Post-Graduate,2,0
+IND1416,Male,General,Other,West Bengal,42655,648,100000,Gig Worker,12th Pass,2,1
+IND1417,Male,OBC,Hindu,Rajasthan,102326,661,100000,Self-Employed,Post-Graduate,2,0
+IND1418,Female,ST,Hindu,West Bengal,44750,644,200000,Salaried,Post-Graduate,2,1
+IND1419,Female,General,Hindu,Maharashtra,23285,620,200000,Gig Worker,Post-Graduate,3,0
+IND1420,Female,OBC,Hindu,Maharashtra,44543,685,200000,Self-Employed,10th Pass,1,1
+IND1421,Female,General,Hindu,Gujarat,31945,706,750000,Gig Worker,Post-Graduate,3,1
+IND1422,Male,ST,Hindu,Gujarat,51652,599,750000,Gig Worker,Post-Graduate,3,1
+IND1423,Male,ST,Sikh,Uttar Pradesh,64161,630,1000000,Self-Employed,Graduate,0,0
+IND1424,Male,ST,Hindu,Bihar,19903,647,750000,Self-Employed,10th Pass,3,0
+IND1425,Male,OBC,Hindu,Uttar Pradesh,83845,665,50000,Salaried,Graduate,2,1
+IND1426,Male,SC,Hindu,Tamil Nadu,30380,654,1000000,Salaried,Graduate,2,1
+IND1427,Female,SC,Hindu,Maharashtra,49539,721,100000,Self-Employed,Post-Graduate,0,1
+IND1428,Male,OBC,Hindu,West Bengal,55933,524,500000,Self-Employed,Graduate,0,1
+IND1429,Male,SC,Hindu,Rajasthan,46965,539,50000,Self-Employed,12th Pass,0,1
+IND1430,Male,General,Muslim,Maharashtra,33645,681,100000,Salaried,12th Pass,0,0
+IND1431,Female,OBC,Hindu,Maharashtra,25796,613,100000,Salaried,Graduate,0,1
+IND1432,Female,General,Hindu,Uttar Pradesh,30082,740,1000000,Self-Employed,Graduate,3,1
+IND1433,Male,General,Muslim,Rajasthan,108621,764,200000,Salaried,Post-Graduate,0,0
+IND1434,Male,General,Christian,Rajasthan,19809,684,200000,Gig Worker,Graduate,3,1
+IND1435,Female,OBC,Hindu,Rajasthan,21950,573,50000,Salaried,Post-Graduate,1,1
+IND1436,Male,OBC,Hindu,Uttar Pradesh,21285,754,200000,Self-Employed,12th Pass,0,1
+IND1437,Female,SC,Hindu,Maharashtra,39935,681,100000,Daily Wage,Primary,0,1
+IND1438,Female,General,Other,Uttar Pradesh,12490,538,200000,Salaried,Primary,3,0
+IND1439,Male,OBC,Christian,Gujarat,14079,546,750000,Self-Employed,10th Pass,1,0
+IND1440,Male,OBC,Hindu,Gujarat,30252,793,200000,Salaried,12th Pass,3,0
+IND1441,Female,SC,Muslim,Uttar Pradesh,14743,779,100000,Self-Employed,12th Pass,3,0
+IND1442,Male,OBC,Hindu,Rajasthan,15609,451,1000000,Self-Employed,Graduate,0,1
+IND1443,Male,OBC,Hindu,Maharashtra,14821,549,50000,Self-Employed,12th Pass,2,0
+IND1444,Female,SC,Hindu,Uttar Pradesh,20077,761,500000,Self-Employed,Graduate,2,1
+IND1445,Female,OBC,Muslim,Uttar Pradesh,60589,663,200000,Daily Wage,Graduate,3,0
+IND1446,Female,General,Hindu,Uttar Pradesh,70897,724,100000,Salaried,12th Pass,0,1
+IND1447,Female,General,Muslim,Tamil Nadu,139149,659,500000,Salaried,Graduate,1,1
+IND1448,Male,SC,Muslim,Gujarat,135625,720,500000,Daily Wage,Graduate,2,1
+IND1449,Male,General,Hindu,West Bengal,62970,665,750000,Self-Employed,10th Pass,1,0
+IND1450,Female,SC,Hindu,Rajasthan,74561,627,500000,Daily Wage,Post-Graduate,2,0
+IND1451,Female,OBC,Hindu,Bihar,39805,754,1000000,Self-Employed,Graduate,0,1
+IND1452,Male,ST,Hindu,West Bengal,52255,682,100000,Gig Worker,10th Pass,3,1
+IND1453,Female,SC,Hindu,Rajasthan,141566,720,100000,Self-Employed,12th Pass,1,1
+IND1454,Male,ST,Hindu,Bihar,47091,678,200000,Gig Worker,12th Pass,1,0
+IND1455,Male,OBC,Christian,Tamil Nadu,81411,623,200000,Daily Wage,Graduate,3,1
+IND1456,Male,SC,Hindu,Uttar Pradesh,18881,801,200000,Self-Employed,Graduate,1,1
+IND1457,Male,OBC,Hindu,Tamil Nadu,22779,695,1000000,Salaried,10th Pass,2,1
+IND1458,Male,OBC,Hindu,Tamil Nadu,45181,634,500000,Salaried,12th Pass,3,1
+IND1459,Male,OBC,Hindu,West Bengal,40334,773,500000,Salaried,12th Pass,2,1
+IND1460,Male,SC,Hindu,Maharashtra,23530,552,750000,Salaried,Post-Graduate,2,0
+IND1461,Female,ST,Hindu,West Bengal,195861,855,1000000,Salaried,Post-Graduate,0,1
+IND1462,Female,SC,Christian,Gujarat,40979,649,200000,Self-Employed,Primary,2,0
+IND1463,Female,OBC,Hindu,Bihar,26637,557,50000,Self-Employed,Graduate,0,1
+IND1464,Female,OBC,Other,Uttar Pradesh,40381,827,750000,Self-Employed,12th Pass,1,0
+IND1465,Male,SC,Muslim,West Bengal,36967,625,50000,Self-Employed,Post-Graduate,1,0
+IND1466,Male,General,Hindu,Bihar,41417,685,500000,Salaried,12th Pass,0,1
+IND1467,Female,General,Christian,Rajasthan,11901,726,750000,Salaried,10th Pass,2,0
+IND1468,Male,OBC,Hindu,Bihar,89712,765,750000,Salaried,12th Pass,3,1
+IND1469,Female,General,Muslim,Rajasthan,93356,690,100000,Self-Employed,Post-Graduate,3,1
+IND1470,Male,General,Hindu,West Bengal,101643,609,500000,Salaried,12th Pass,0,1
+IND1471,Female,General,Muslim,Gujarat,45606,683,500000,Salaried,12th Pass,1,1
+IND1472,Male,General,Muslim,West Bengal,57741,629,1000000,Self-Employed,Graduate,1,1
+IND1473,Female,General,Muslim,Rajasthan,19804,686,750000,Gig Worker,10th Pass,3,0
+IND1474,Male,ST,Muslim,Bihar,65057,803,500000,Salaried,12th Pass,0,1
+IND1475,Female,OBC,Hindu,Bihar,43314,729,750000,Self-Employed,10th Pass,3,1
+IND1476,Male,OBC,Hindu,Rajasthan,26310,682,1000000,Self-Employed,12th Pass,2,0
+IND1477,Female,OBC,Hindu,Tamil Nadu,66524,727,1000000,Gig Worker,Post-Graduate,2,0
+IND1478,Female,General,Hindu,Gujarat,68351,733,100000,Daily Wage,Graduate,0,1
+IND1479,Male,ST,Hindu,Maharashtra,37889,573,750000,Salaried,Graduate,0,0
+IND1480,Female,SC,Hindu,Uttar Pradesh,49358,668,500000,Salaried,10th Pass,2,0
+IND1481,Female,General,Sikh,Bihar,17637,882,500000,Daily Wage,12th Pass,1,1
+IND1482,Male,OBC,Hindu,Uttar Pradesh,86701,768,750000,Self-Employed,12th Pass,0,0
+IND1483,Female,SC,Muslim,Maharashtra,19357,622,750000,Self-Employed,Graduate,2,0
+IND1484,Female,ST,Hindu,West Bengal,22163,613,750000,Self-Employed,Graduate,2,0
+IND1485,Female,OBC,Muslim,Uttar Pradesh,37934,610,200000,Self-Employed,12th Pass,1,0
+IND1486,Male,OBC,Christian,Maharashtra,79234,738,500000,Daily Wage,Graduate,1,0
+IND1487,Male,General,Hindu,Rajasthan,79202,801,1000000,Unemployed,Graduate,1,1
+IND1488,Female,ST,Hindu,Tamil Nadu,36193,714,500000,Gig Worker,12th Pass,1,0
+IND1489,Female,General,Muslim,Bihar,62386,678,200000,Salaried,Post-Graduate,3,1
+IND1490,Male,ST,Hindu,Maharashtra,11132,627,750000,Daily Wage,Graduate,1,1
+IND1491,Female,OBC,Hindu,Uttar Pradesh,21948,692,100000,Salaried,Graduate,3,1
+IND1492,Male,OBC,Hindu,Bihar,22264,595,750000,Salaried,Post-Graduate,0,1
+IND1493,Male,OBC,Hindu,Tamil Nadu,87251,500,750000,Daily Wage,Primary,2,0
+IND1494,Male,General,Hindu,Rajasthan,57426,804,200000,Salaried,Graduate,3,1
+IND1495,Male,General,Hindu,West Bengal,41326,579,500000,Salaried,Post-Graduate,0,1
+IND1496,Female,General,Hindu,Bihar,44232,637,750000,Salaried,Graduate,0,1
+IND1497,Male,General,Hindu,West Bengal,108862,720,500000,Daily Wage,12th Pass,3,1
+IND1498,Female,SC,Sikh,Maharashtra,32237,786,50000,Self-Employed,Graduate,0,0
+IND1499,Female,OBC,Hindu,Tamil Nadu,14474,686,1000000,Self-Employed,12th Pass,0,1
+IND1500,Female,General,Sikh,Uttar Pradesh,77733,563,500000,Salaried,Post-Graduate,3,1
+IND1501,Male,ST,Hindu,Tamil Nadu,41245,639,100000,Gig Worker,Post-Graduate,0,1
+IND1502,Male,SC,Hindu,Tamil Nadu,70796,607,1000000,Gig Worker,Graduate,1,1
+IND1503,Female,ST,Hindu,Gujarat,35195,661,100000,Salaried,10th Pass,1,1
+IND1504,Female,ST,Hindu,Tamil Nadu,20189,769,750000,Self-Employed,10th Pass,2,1
+IND1505,Male,General,Hindu,Tamil Nadu,48145,449,1000000,Salaried,Post-Graduate,0,1
+IND1506,Female,OBC,Hindu,Bihar,36575,630,500000,Unemployed,12th Pass,2,0
+IND1507,Female,SC,Hindu,Uttar Pradesh,41334,623,1000000,Self-Employed,10th Pass,1,1
+IND1508,Female,OBC,Hindu,Bihar,112600,558,750000,Daily Wage,Graduate,1,1
+IND1509,Female,General,Hindu,Bihar,16829,714,200000,Salaried,10th Pass,1,0
+IND1510,Female,SC,Hindu,Maharashtra,44362,544,100000,Gig Worker,Post-Graduate,0,0
+IND1511,Male,General,Hindu,Bihar,20469,554,750000,Gig Worker,10th Pass,0,1
+IND1512,Female,General,Muslim,Gujarat,5923,737,200000,Gig Worker,12th Pass,1,1
+IND1513,Female,OBC,Hindu,Gujarat,35091,792,1000000,Unemployed,Primary,2,1
+IND1514,Male,OBC,Hindu,West Bengal,37112,658,1000000,Salaried,12th Pass,2,1
+IND1515,Male,OBC,Other,Maharashtra,56188,561,750000,Salaried,Graduate,3,1
+IND1516,Male,General,Hindu,West Bengal,31185,605,500000,Self-Employed,10th Pass,1,1
+IND1517,Female,SC,Hindu,West Bengal,12806,750,1000000,Gig Worker,Graduate,2,1
+IND1518,Female,General,Other,Rajasthan,20420,674,500000,Self-Employed,Graduate,1,1
+IND1519,Male,General,Hindu,Uttar Pradesh,91296,656,500000,Salaried,12th Pass,2,1
+IND1520,Female,SC,Hindu,Uttar Pradesh,20218,691,500000,Self-Employed,12th Pass,3,1
+IND1521,Male,ST,Hindu,Bihar,110002,661,50000,Salaried,10th Pass,3,1
+IND1522,Female,SC,Hindu,Bihar,75734,796,200000,Self-Employed,Graduate,1,1
+IND1523,Female,SC,Hindu,Rajasthan,29072,601,200000,Self-Employed,10th Pass,2,0
+IND1524,Female,OBC,Hindu,Bihar,21799,591,1000000,Gig Worker,12th Pass,0,1
+IND1525,Male,OBC,Hindu,Uttar Pradesh,75624,547,1000000,Salaried,Post-Graduate,3,0
+IND1526,Male,General,Hindu,West Bengal,30679,619,500000,Self-Employed,Graduate,1,1
+IND1527,Male,OBC,Other,Tamil Nadu,12308,572,50000,Salaried,Graduate,1,0
+IND1528,Male,OBC,Muslim,Gujarat,53831,683,500000,Salaried,Graduate,2,1
+IND1529,Female,General,Hindu,Tamil Nadu,48634,666,50000,Gig Worker,Primary,1,0
+IND1530,Female,SC,Hindu,Tamil Nadu,80530,573,500000,Daily Wage,12th Pass,3,0
+IND1531,Female,OBC,Hindu,Uttar Pradesh,46384,715,100000,Salaried,12th Pass,1,0
+IND1532,Female,General,Hindu,Tamil Nadu,24725,793,100000,Gig Worker,Primary,1,1
+IND1533,Female,General,Hindu,Rajasthan,88324,695,750000,Daily Wage,Graduate,0,1
+IND1534,Female,OBC,Hindu,Maharashtra,94550,448,500000,Daily Wage,10th Pass,0,0
+IND1535,Female,General,Muslim,Bihar,42755,833,1000000,Salaried,Graduate,3,1
+IND1536,Female,SC,Hindu,Maharashtra,37881,728,200000,Unemployed,10th Pass,2,1
+IND1537,Male,OBC,Hindu,West Bengal,14381,831,750000,Salaried,Graduate,0,1
+IND1538,Male,OBC,Hindu,Gujarat,23735,757,1000000,Salaried,Primary,2,0
+IND1539,Male,OBC,Hindu,Bihar,61854,774,100000,Salaried,Graduate,3,1
+IND1540,Female,SC,Muslim,Tamil Nadu,24585,682,500000,Self-Employed,Graduate,0,0
+IND1541,Female,OBC,Hindu,Gujarat,13097,642,750000,Salaried,12th Pass,2,1
+IND1542,Male,OBC,Muslim,Bihar,419624,696,500000,Salaried,Graduate,0,1
+IND1543,Female,OBC,Hindu,Rajasthan,13037,604,100000,Salaried,12th Pass,3,0
+IND1544,Female,General,Hindu,Rajasthan,176261,701,750000,Gig Worker,Graduate,3,1
+IND1545,Male,SC,Hindu,Rajasthan,29284,441,100000,Daily Wage,12th Pass,0,0
+IND1546,Male,SC,Hindu,Rajasthan,34228,668,50000,Salaried,Graduate,2,1
+IND1547,Female,OBC,Hindu,Tamil Nadu,22683,779,100000,Daily Wage,Post-Graduate,1,0
+IND1548,Male,SC,Muslim,Maharashtra,62817,673,500000,Daily Wage,Graduate,1,1
+IND1549,Female,SC,Hindu,Bihar,13255,811,200000,Gig Worker,Graduate,0,1
+IND1550,Male,SC,Hindu,Tamil Nadu,10014,642,100000,Salaried,Post-Graduate,2,1
+IND1551,Female,SC,Hindu,Rajasthan,112097,750,1000000,Gig Worker,Graduate,1,0
+IND1552,Female,OBC,Hindu,West Bengal,20686,590,200000,Daily Wage,Graduate,3,0
+IND1553,Female,OBC,Hindu,Maharashtra,61221,746,50000,Gig Worker,Post-Graduate,2,0
+IND1554,Female,OBC,Sikh,West Bengal,16986,684,750000,Salaried,12th Pass,1,1
+IND1555,Male,SC,Muslim,Gujarat,59628,646,750000,Self-Employed,10th Pass,2,1
+IND1556,Male,General,Sikh,West Bengal,118005,446,200000,Self-Employed,Post-Graduate,0,1
+IND1557,Male,SC,Hindu,Gujarat,25109,643,750000,Self-Employed,12th Pass,2,1
+IND1558,Female,SC,Hindu,Gujarat,9382,683,100000,Salaried,12th Pass,1,1
+IND1559,Female,General,Hindu,Rajasthan,118439,735,200000,Salaried,Graduate,0,1
+IND1560,Female,SC,Hindu,Gujarat,69450,797,500000,Gig Worker,12th Pass,2,0
+IND1561,Male,General,Muslim,Uttar Pradesh,26068,837,100000,Daily Wage,Graduate,3,1
+IND1562,Male,OBC,Hindu,Bihar,31176,770,100000,Salaried,12th Pass,1,1
+IND1563,Male,SC,Hindu,Bihar,16689,617,100000,Unemployed,Post-Graduate,0,1
+IND1564,Male,General,Hindu,Rajasthan,98142,639,500000,Salaried,12th Pass,2,1
+IND1565,Female,SC,Hindu,Uttar Pradesh,24976,727,50000,Self-Employed,12th Pass,3,0
+IND1566,Male,SC,Hindu,West Bengal,13452,709,1000000,Gig Worker,Post-Graduate,1,0
+IND1567,Male,OBC,Hindu,Tamil Nadu,42173,803,750000,Gig Worker,Graduate,3,1
+IND1568,Female,General,Hindu,West Bengal,19890,875,200000,Daily Wage,Primary,2,1
+IND1569,Male,General,Hindu,Tamil Nadu,17658,857,50000,Salaried,Graduate,2,1
+IND1570,Male,OBC,Hindu,Gujarat,26874,791,200000,Daily Wage,12th Pass,0,1
+IND1571,Female,ST,Muslim,Maharashtra,38578,709,750000,Salaried,10th Pass,3,0
+IND1572,Male,OBC,Christian,Tamil Nadu,13811,779,500000,Gig Worker,12th Pass,0,0
+IND1573,Female,General,Sikh,Maharashtra,95760,806,100000,Gig Worker,12th Pass,1,1
+IND1574,Female,OBC,Muslim,Bihar,58338,652,100000,Self-Employed,10th Pass,0,0
+IND1575,Female,OBC,Hindu,Maharashtra,28120,619,500000,Salaried,10th Pass,1,1
+IND1576,Male,SC,Hindu,Bihar,19296,599,50000,Daily Wage,Graduate,2,0
+IND1577,Female,General,Hindu,Uttar Pradesh,34116,590,50000,Salaried,Graduate,2,0
+IND1578,Male,SC,Hindu,Uttar Pradesh,68159,547,200000,Salaried,Graduate,3,1
+IND1579,Male,OBC,Muslim,Rajasthan,61157,686,500000,Gig Worker,Primary,1,1
+IND1580,Male,ST,Hindu,Rajasthan,76187,580,50000,Self-Employed,12th Pass,2,1
+IND1581,Female,OBC,Christian,Gujarat,25945,598,500000,Daily Wage,Post-Graduate,3,1
+IND1582,Male,OBC,Hindu,Tamil Nadu,4687,724,750000,Salaried,10th Pass,3,1
+IND1583,Male,ST,Hindu,Gujarat,86982,680,100000,Salaried,Graduate,0,1
+IND1584,Female,General,Hindu,Bihar,32304,701,100000,Daily Wage,Post-Graduate,3,0
+IND1585,Male,ST,Christian,Gujarat,57890,781,100000,Self-Employed,12th Pass,2,0
+IND1586,Male,OBC,Hindu,Maharashtra,116828,738,500000,Salaried,Graduate,0,1
+IND1587,Male,General,Hindu,Bihar,199603,794,500000,Gig Worker,10th Pass,1,1
+IND1588,Male,OBC,Hindu,Rajasthan,23043,671,200000,Self-Employed,Graduate,1,1
+IND1589,Male,SC,Hindu,Uttar Pradesh,39885,802,100000,Self-Employed,10th Pass,2,1
+IND1590,Male,General,Hindu,Rajasthan,94540,695,200000,Self-Employed,12th Pass,2,1
+IND1591,Female,OBC,Hindu,Tamil Nadu,20110,679,100000,Gig Worker,Post-Graduate,0,1
+IND1592,Male,OBC,Hindu,Bihar,24161,789,200000,Gig Worker,Primary,0,1
+IND1593,Male,OBC,Hindu,Bihar,24061,590,200000,Gig Worker,12th Pass,2,1
+IND1594,Female,General,Hindu,Maharashtra,35608,837,750000,Salaried,Graduate,2,1
+IND1595,Male,SC,Hindu,Tamil Nadu,31129,641,200000,Daily Wage,Graduate,1,0
+IND1596,Female,ST,Hindu,Uttar Pradesh,23964,561,500000,Self-Employed,10th Pass,1,1
+IND1597,Male,ST,Hindu,West Bengal,18471,720,200000,Gig Worker,Graduate,1,1
+IND1598,Male,SC,Hindu,Bihar,64110,632,100000,Salaried,Graduate,2,1
+IND1599,Male,General,Hindu,Bihar,92640,837,200000,Daily Wage,Post-Graduate,3,1
