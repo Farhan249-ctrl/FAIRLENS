@@ -5,7 +5,18 @@ from routes.postmodel import postmodel_bp
 from routes.governance import governance_bp
 
 app = Flask(__name__)
+
+# 1. Broadest possible CORS config. 
+# REMOVED supports_credentials=True as it breaks when using '*'
 CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+# 2. Manual header injection for extra safety (Production Hardening)
+@app.after_request
+def add_header(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type,Authorization'
+    response.headers['Access-Control-Allow-Methods'] = 'GET,PUT,POST,DELETE,OPTIONS'
+    return response
 
 app.register_blueprint(premodel_bp, url_prefix='/api/premodel')
 app.register_blueprint(postmodel_bp, url_prefix='/api/postmodel')
