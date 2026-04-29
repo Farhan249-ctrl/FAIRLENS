@@ -12,13 +12,8 @@ from services.model_trainer import train_and_predict, predict_single_row
 postmodel_bp = Blueprint('postmodel', __name__)
 DEMO_PATH = os.path.join(os.path.dirname(__file__), '../data/india_loan_demo.csv')
 
-def _clean_metric(metric_dict):
-    """Ensures all numpy types are converted to standard Python types for JSON."""
-    return {
-        'value': float(metric_dict.get('value', 0)),
-        'fair': bool(metric_dict.get('fair', False)),
-        'description': str(metric_dict.get('description', ''))
-    }
+def _clean_metric(m):
+    return m  # return everything, don't strip any fields
 
 @postmodel_bp.route('/audit', methods=['POST', 'OPTIONS'])
 def audit():
@@ -41,21 +36,23 @@ def audit():
 
         # Explicitly clean every metric to avoid bool_ error
         metrics = {
-            'statistical_parity': _clean_metric(statistical_parity_difference(y_pred, s, privileged_val)),
-            'disparate_impact': _clean_metric(disparate_impact_ratio(y_pred, s, privileged_val)),
-            'equal_opportunity': _clean_metric(equal_opportunity_difference(y_true, y_pred, s, privileged_val)),
-            'average_odds': _clean_metric(average_odds_difference(y_true, y_pred, s, privileged_val)),
-            'consistency': _clean_metric(consistency_score(X_num, y_pred)),
-            'calibration': _clean_metric(calibration_difference(y_true, y_prob, s, privileged_val)),
+            'statistical_parity': statistical_parity_difference(y_pred, s, privileged_val),
+            'disparate_impact': disparate_impact_ratio(y_pred, s, privileged_val),
+            'equal_opportunity': equal_opportunity_difference(y_true, y_pred, s, privileged_val),
+            'average_odds': average_odds_difference(y_true, y_pred, s, privileged_val),
+            'consistency': consistency_score(X_num, y_pred),
+            'calibration': calibration_difference(y_true, y_prob, s, privileged_val),
         }
 
-        fair_count = sum(1 for m in metrics.values() if m['fair'] is True)
+        fair_count = sum(1 for m in metrics.values() if bool(m.get('fair', False)))
         total = len(metrics)
         bias_score = round((1 - fair_count / total) * 100, 1)
 
         return jsonify({
             'metrics': metrics,
             'model_accuracy': float(accuracy),
+            'fair_count': fair_count,        # ← ADD THIS
+            'total_metrics': total,          # ← ADD THIS
             'bias_score': bias_score,
             'verdict': 'FAIR' if fair_count >= total * 0.7 else 'BIASED',
             'layer': 2

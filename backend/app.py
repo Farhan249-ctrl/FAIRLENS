@@ -1,22 +1,29 @@
 from flask import Flask
 from flask_cors import CORS
+from flask.json.provider import DefaultJSONProvider
+import numpy as np
+
+class NumpyJSONProvider(DefaultJSONProvider):
+    def default(self, obj):
+        if isinstance(obj, np.bool_):
+            return bool(obj)
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
+
+app = Flask(__name__)
+app.json_provider_class = NumpyJSONProvider
+app.json = NumpyJSONProvider(app)
+
+CORS(app, origins=["http://localhost:3000"])
+
 from routes.premodel import premodel_bp
 from routes.postmodel import postmodel_bp
 from routes.governance import governance_bp
-
-app = Flask(__name__)
-
-# 1. Broadest possible CORS config. 
-# REMOVED supports_credentials=True as it breaks when using '*'
-CORS(app, resources={r"/api/*": {"origins": "*"}})
-
-# 2. Manual header injection for extra safety (Production Hardening)
-@app.after_request
-def add_header(response):
-    response.headers['Access-Control-Allow-Origin'] = '*'
-    response.headers['Access-Control-Allow-Headers'] = 'Content-Type,Authorization'
-    response.headers['Access-Control-Allow-Methods'] = 'GET,PUT,POST,DELETE,OPTIONS'
-    return response
 
 app.register_blueprint(premodel_bp, url_prefix='/api/premodel')
 app.register_blueprint(postmodel_bp, url_prefix='/api/postmodel')

@@ -26,7 +26,7 @@ export default function GovernanceTrail({ preMetrics, postMetrics, datasetInfo }
       const metrics = preMetrics || {};
       const { data } = await generateGovernanceReport({
         metrics: { ...metrics, bias_score: metrics?.bias_score, verdict: metrics?.verdict },
-        dataset_info: datasetInfo || { name: 'India Loan Dataset', sensitive_attr: 'gender', privileged_val: 'Male', rows: 600 },
+        dataset_info: datasetInfo || { name: 'India Loan Decisions Dataset', sensitive_attr: 'gender', privileged_val: 'Male', rows: 600 },
       });
       setReport(data);
       getAuditTrail().then(({ data }) => setTrail(data.audit_trail || [])).catch(() => {});

@@ -229,9 +229,11 @@ export default function PreModelAudit({ onComplete }) {
                 <YAxis tick={{ fontFamily: 'Space Mono', fontSize: 10, fill: '#8080a8' }} unit="%" domain={[0, 100]} />
                 <Tooltip formatter={(v) => `${v}%`} contentStyle={{ background: '#0d0d1a', border: '1px solid #1e1e38', fontFamily: 'Space Mono', fontSize: 11 }} />
                 <Bar dataKey="rate" radius={[4, 4, 0, 0]}>
-                  {Object.keys(results.audit_results.group_approval_rates).map((_, i) => (
-                    <Cell key={i} fill={i === 0 ? '#ff3355' : '#00e87a'} />
-                  ))}
+                  {Object.entries(results.audit_results.group_approval_rates)
+                    .sort(([,a], [,b]) => a - b) // Sort by approval rate (lowest first)
+                    .map(([name, val], i) => (
+                      <Cell key={name} fill={i === 0 ? '#ff3355' : '#00e87a'} /> // Lowest rate = red (disadvantaged)
+                    ))}
                 </Bar>
               </BarChart>
             </ResponsiveContainer>

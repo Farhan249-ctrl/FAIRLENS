@@ -2,10 +2,16 @@ import React, { useState } from 'react';
 import { runBiasMirror } from '../../api/fairlens';
 
 const DEFAULT_ROW = {
-  gender: 'Female', caste: 'SC', religion: 'Muslim',
-  monthly_income: 35000, credit_score: 680,
-  loan_amount_requested: 200000, employment_type: 'Salaried',
-  education: 'Graduate', existing_loans: 1, state: 'Bihar',
+  gender: 'Female',
+  caste: 'SC',
+  religion: 'Muslim',
+  monthly_income: 18000,      // ← lower this
+  credit_score: 540,          // ← lower this  
+  loan_amount_requested: 300000,
+  employment_type: 'Daily Wage',
+  education: '10th Pass',
+  existing_loans: 2,
+  state: 'Bihar',
 };
 
 export default function BiasMirror() {
