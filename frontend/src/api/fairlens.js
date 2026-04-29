@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://fairlens-backend-ba98.onrender.com/api' });
+const API = axios.create({ 
+  baseURL: 'https://fairlens-ba98.onrender.com/api' 
+});
 
 export const checkHealth = () => API.get('/health');
 
