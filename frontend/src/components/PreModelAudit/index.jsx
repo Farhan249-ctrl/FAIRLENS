@@ -17,19 +17,37 @@ export default function PreModelAudit({ onComplete }) {
   const [intersectional, setIntersectional] = useState(null);
   const [loadingInter, setLoadingInter] = useState(false);
 
-  const handleFileUpload = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (evt) => {
-      const text = evt.target.result;
-      const rows = parseCSV(text);
-      const { maskedRows, maskedColumns, report } = maskPII(rows);
-      setPiiReport(report);
-      console.log('PII masked. Ready to upload.', maskedColumns);
-    };
-    reader.readAsText(file);
-  };
+  const handleFileUpload = async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  setLoading(true);
+  setError(null);
+
+  try {
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('sensitive_attr', sensitiveAttr);
+    formData.append('label_col', 'loan_approved');
+    formData.append('privileged_val', privilegedVal);
+
+    const response = await fetch('/api/premodel/upload', {
+      method: 'POST',
+      body: formData,
+    });
+
+    const data = await response.json();
+    if (data.error) throw new Error(data.error);
+
+    setResults(data);
+    setStep(3);
+    onComplete && onComplete(data);
+  } catch (err) {
+    setError(err.message);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const runIntersectional = async () => {
     setLoadingInter(true);
@@ -108,7 +126,20 @@ export default function PreModelAudit({ onComplete }) {
             The demo dataset contains 600 rows of Indian loan applications with gender, caste, and religion bias deliberately embedded — ready to detect immediately.
           </p>
           <div style={{ display: 'flex', gap: 12 }}>
-            <button className="btn-ghost" onClick={() => setStep(2)}>
+            {/* Hidden file input */}
+            <input
+              type="file"
+              id="csv-upload"
+              accept=".csv"
+              style={{ display: 'none' }}
+              onChange={handleFileUpload}
+            />
+
+            {/* Visible button */}
+            <button
+              className="btn-ghost"
+              onClick={() => document.getElementById('csv-upload').click()}
+            >
               Upload CSV
             </button>
             <button className="btn-india" onClick={() => { setStep(2); }}>
@@ -116,6 +147,13 @@ export default function PreModelAudit({ onComplete }) {
               Load India Loan Demo Dataset
             </button>
           </div>
+          <p style={{
+            fontSize: 11, fontFamily: 'var(--mono)', color: 'var(--muted)',
+            marginTop: 10, lineHeight: 1.7
+          }}>
+            CSV requirements: must have a binary outcome column (0/1) and at least
+            one demographic column (gender, caste, religion, etc.)
+          </p>
           {piiReport && (
             <div style={{
               marginTop: 12, padding: '10px 14px',

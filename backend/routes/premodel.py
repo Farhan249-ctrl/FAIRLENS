@@ -76,6 +76,60 @@ def audit():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@premodel_bp.route('/upload', methods=['POST'])
+def upload():
+    try:
+        if 'file' not in request.files:
+            return jsonify({'error': 'No file uploaded'}), 400
+
+        file = request.files['file']
+        if file.filename == '':
+            return jsonify({'error': 'Empty filename'}), 400
+        if not file.filename.endswith('.csv'):
+            return jsonify({'error': 'Only CSV files are supported'}), 400
+
+        sensitive_attr = request.form.get('sensitive_attr', 'gender')
+        label_col = request.form.get('label_col', 'loan_approved')
+        privileged_val = request.form.get('privileged_val', 'Male')
+
+        df = pd.read_csv(file)
+        df.dropna(how='all', inplace=True)
+
+        # Validate columns exist
+        if sensitive_attr not in df.columns:
+            available = list(df.columns)
+            return jsonify({
+                'error': f"Column '{sensitive_attr}' not found.",
+                'available_columns': available,
+                'hint': f"Your CSV has these columns: {', '.join(available)}. Pick one as sensitive attribute."
+            }), 400
+
+        if label_col not in df.columns:
+            return jsonify({
+                'error': f"Label column '{label_col}' not found.",
+                'available_columns': list(df.columns)
+            }), 400
+
+        audit_results = run_premodel_audit(df, sensitive_attr, label_col, privileged_val)
+
+        return jsonify({
+            'dataset_info': {
+                'name': file.filename,
+                'rows': len(df),
+                'columns': list(df.columns),
+                'sensitive_attr': sensitive_attr,
+                'label_col': label_col,
+                'privileged_val': privileged_val,
+                'user_uploaded': True
+            },
+            'audit_results': audit_results,
+            'layer': 1,
+            'layer_name': 'Pre-Model Data Audit'
+        })
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @premodel_bp.route('/demo-info', methods=['GET'])
 def demo_info():
     return jsonify({
