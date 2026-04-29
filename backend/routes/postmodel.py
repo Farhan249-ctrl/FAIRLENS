@@ -90,7 +90,13 @@ def bias_mirror():
             'original': {'value': str(row.get(sensitive_attr)), 'decision': int(orig_pred), 'confidence': float(round(orig_prob * 100, 1))},
             'flipped': {'value': str(flip_to), 'decision': int(flip_pred), 'confidence': float(round(flip_prob * 100, 1))},
             'bias_detected': changed,
-            'india_context': f"Article 14 violation risk: {changed}"
+            'india_context': (
+            f"VIOLATION: A {row.get(sensitive_attr)} applicant "
+            f"and a {flip_to} applicant with IDENTICAL financial profiles "
+            f"receive DIFFERENT decisions. This is an Article 14 breach."
+            if changed else
+            f"No Article 14 risk detected for this specific applicant."
+        )
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500

@@ -32,6 +32,7 @@ export default function BiasMirror() {
         sensitive_attr: sensitiveAttr,
         flip_to: flipTo,
       });
+      console.log('Mirror result:', data);
       setResult(data);
     } catch (e) {
       setError(e.response?.data?.error || e.message);
@@ -138,6 +139,22 @@ export default function BiasMirror() {
 
           {result && (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+              {/* BIAS CONFIRMED Banner */}
+              {result.bias_detected && (
+                <div style={{
+                  background: 'var(--red-dim)', border: '2px solid var(--red)',
+                  borderRadius: 8, padding: '16px', textAlign: 'center', marginBottom: 12
+                }}>
+                  <div style={{ fontFamily: 'var(--mono)', fontSize: 20, fontWeight: 800, color: 'var(--red)' }}>
+                    ⚠ BIAS CONFIRMED
+                  </div>
+                  <div style={{ fontSize: 13, color: 'var(--muted2)', marginTop: 6 }}>
+                    Decision changed when ONLY {sensitiveAttr} was flipped.
+                    Confidence shifted {Math.abs((result.original.confidence || 0) - (result.flipped.confidence || 0)).toFixed(1)}%.
+                  </div>
+                </div>
+              )}
+
               {/* Decision comparison */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
                 {/* Original */}
@@ -145,7 +162,7 @@ export default function BiasMirror() {
                   <div style={{ fontFamily: 'var(--mono)', fontSize: 10, color: 'var(--muted)', marginBottom: 8 }}>ORIGINAL</div>
                   <div style={{ fontSize: 13, fontFamily: 'var(--mono)', color: 'var(--muted2)', marginBottom: 6 }}>{sensitiveAttr} = <strong style={{ color: 'var(--text)' }}>{result.original.value}</strong></div>
                   <div style={{ fontSize: 28, fontWeight: 800, color: result.original.decision === 1 ? 'var(--green)' : 'var(--red)' }}>
-                    {result.original.label}
+                    {result.original.decision === 1 ? 'APPROVED' : 'REJECTED'}
                   </div>
                   <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--muted2)', marginTop: 6 }}>
                     {result.original.confidence}% confidence
@@ -157,7 +174,7 @@ export default function BiasMirror() {
                   <div style={{ fontFamily: 'var(--mono)', fontSize: 10, color: 'var(--purple)', marginBottom: 8 }}>FLIPPED</div>
                   <div style={{ fontSize: 13, fontFamily: 'var(--mono)', color: 'var(--muted2)', marginBottom: 6 }}>{sensitiveAttr} = <strong style={{ color: 'var(--purple)' }}>{result.flipped.value}</strong></div>
                   <div style={{ fontSize: 28, fontWeight: 800, color: result.flipped.decision === 1 ? 'var(--green)' : 'var(--red)' }}>
-                    {result.flipped.label}
+                    {result.flipped.decision === 1 ? 'APPROVED' : 'REJECTED'}
                   </div>
                   <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--muted2)', marginTop: 6 }}>
                     {result.flipped.confidence}% confidence

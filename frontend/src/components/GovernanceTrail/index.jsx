@@ -25,7 +25,7 @@ export default function GovernanceTrail({ preMetrics, postMetrics, datasetInfo }
     try {
       const metrics = preMetrics || {};
       const { data } = await generateGovernanceReport({
-        metrics: { ...metrics, bias_score: metrics.bias_score, verdict: metrics.verdict },
+        metrics: { ...metrics, bias_score: metrics?.bias_score, verdict: metrics?.verdict },
         dataset_info: datasetInfo || { name: 'India Loan Dataset', sensitive_attr: 'gender', privileged_val: 'Male', rows: 600 },
       });
       setReport(data);
@@ -103,10 +103,20 @@ export default function GovernanceTrail({ preMetrics, postMetrics, datasetInfo }
           <div style={{
             background: 'var(--surface2)', border: '1px solid var(--border)', borderRadius: 6,
             padding: '16px', fontFamily: 'var(--mono)', fontSize: 12, color: 'var(--muted2)',
-            lineHeight: 1.8, maxHeight: 400, overflowY: 'auto', whiteSpace: 'pre-wrap',
+            lineHeight: 1.8, maxHeight: 400, minHeight: 200, overflowY: 'auto', whiteSpace: 'pre-wrap',
           }}>
             {report.report}
           </div>
+          <button onClick={() => {
+            const blob = new Blob([report.report], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `FairLens_Audit_${report.audit_id}.txt`;
+            a.click();
+          }} className="btn-ghost" style={{ marginTop: 8 }}>
+            ↓ Download Report
+          </button>
         </div>
       )}
 
@@ -138,7 +148,11 @@ export default function GovernanceTrail({ preMetrics, postMetrics, datasetInfo }
           </span>
         </div>
         {trail.length === 0 ? (
-          <p style={{ color: 'var(--muted)', fontFamily: 'var(--mono)', fontSize: 12 }}>No audits recorded yet. Generate a report to create an entry.</p>
+          <p style={{ color: 'var(--muted)', fontFamily: 'var(--mono)', fontSize: 12, lineHeight: 1.8 }}>
+            No audits recorded yet.<br/>
+            Run a Pre-Model Audit first, then generate a Governance Report.<br/>
+            Every report creates an immutable SHA-256 verified entry here.
+          </p>
         ) : (
           trail.map((entry, i) => (
             <div key={i} style={{ padding: '12px 0', borderBottom: i < trail.length - 1 ? '1px solid var(--border)' : 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -159,7 +173,7 @@ export default function GovernanceTrail({ preMetrics, postMetrics, datasetInfo }
                 {entry.integrity_hash && (
                   <span title={`SHA-256: ${entry.integrity_hash}`}
                     style={{ fontFamily: 'var(--mono)', fontSize: 9, color: 'var(--muted)', cursor: 'help' }}>
-                    🔒 {entry.integrity_hash?.slice(0, 8)}...
+                    🔒 {entry.integrity_hash?.slice(0, 24)}...
                   </span>
                 )}
                 <span className={`badge ${entry.verdict === 'FAIR' ? 'badge-fair' : 'badge-biased'}`}>{entry.verdict}</span>

@@ -15,6 +15,7 @@ export default function PostModelAudit({ onComplete }) {
         use_demo: true, sensitive_attr: sensitiveAttr,
         label_col: 'loan_approved', privileged_val: sensitiveAttr === 'gender' ? 'Male' : sensitiveAttr === 'caste' ? 'General' : 'Hindu',
       });
+      console.log('Post model response:', data);
       setResults(data);
       onComplete && onComplete(data);
     } catch (e) {
@@ -78,15 +79,20 @@ export default function PostModelAudit({ onComplete }) {
           {/* Summary */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 12, marginBottom: 20 }}>
             {[
-              { label: 'FAIR METRICS', value: `${results.fair_count}/${results.total_metrics}`, color: 'var(--green)' },
-              { label: 'BIAS SCORE', value: `${results.bias_score}`, color: results.bias_score > 25 ? 'var(--red)' : 'var(--amber)', suffix: '/100' },
-              { label: 'MODEL ACCURACY', value: `${(results.model_accuracy * 100).toFixed(1)}%`, color: 'var(--text)' },
+              { label: 'FAIR METRICS', value: `${results.fair_count || 0}/${results.total_metrics || 6}`, color: 'var(--green)' },
+              { label: 'BIAS SCORE', value: `${results.bias_score || 0}`, color: (results.bias_score || 0) > 25 ? 'var(--red)' : 'var(--amber)', suffix: '/100' },
+              { label: 'MODEL ACCURACY', value: `${((results.model_accuracy || 0) * 100).toFixed(1)}%`, color: 'var(--text)' },
             ].map(({ label, value, color, suffix }) => (
               <div key={label} className="card" style={{ textAlign: 'center' }}>
                 <div style={{ fontFamily: 'var(--mono)', fontSize: 10, color: 'var(--muted)', marginBottom: 8 }}>{label}</div>
                 <div style={{ fontSize: 30, fontWeight: 800, fontFamily: 'var(--mono)', color }}>
                   {value}<span style={{ fontSize: 14, color: 'var(--muted)' }}>{suffix}</span>
                 </div>
+                {label === 'MODEL ACCURACY' && (
+                  <div style={{ fontSize: 10, color: 'var(--muted)', fontFamily: 'var(--mono)', marginTop: 4 }}>
+                    Note: High accuracy achieved by learning biased patterns — not genuine performance
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -109,19 +115,19 @@ export default function PostModelAudit({ onComplete }) {
           {/* All metrics table */}
           <div className="card">
             <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 16 }}>ALL METRICS DETAIL</div>
-            {Object.entries(results.metrics).map(([key, m]) => (
+            {Object.entries(results.metrics || {}).map(([key, m]) => (
               <div key={key} className="metric-row">
                 <div>
-                  <div style={{ fontWeight: 600, fontSize: 13 }}>{m.metric}</div>
-                  <div className="metric-formula mono">{m.formula}</div>
-                  <div className="metric-name" style={{ marginTop: 4 }}>{m.interpretation}</div>
+                  <div style={{ fontWeight: 600, fontSize: 13 }}>{m.metric || METRIC_LABELS[key] || key}</div>
+                  <div className="metric-formula mono">{m.formula || 'N/A'}</div>
+                  <div className="metric-name" style={{ marginTop: 4 }}>{m.interpretation || 'No interpretation available'}</div>
                 </div>
                 <div style={{ textAlign: 'right', flexShrink: 0, marginLeft: 16 }}>
                   <div className="metric-value mono" style={{ color: m.fair ? 'var(--green)' : 'var(--red)' }}>
                     {m.value ?? 'N/A'}
                   </div>
                   <span className={`badge ${m.fair ? 'badge-fair' : 'badge-biased'}`} style={{ marginTop: 6, display: 'inline-block' }}>
-                    {m.verdict}
+                    {m.verdict || 'UNKNOWN'}
                   </span>
                 </div>
               </div>
